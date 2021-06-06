@@ -21,6 +21,7 @@ struct ColorSlider: View {
                 Slider(value: $sliderValue, in: 0...255, step: 1)
                     .frame(width: 250, height: 50)
                     .accentColor(color)
+               // Spacer()
                 SliderTextFiled(sliderValue: $sliderValue)
             }
             
