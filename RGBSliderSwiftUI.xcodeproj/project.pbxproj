@@ -13,7 +13,7 @@
 		147F5D5A266CAE47008A337A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147F5D59266CAE47008A337A /* Preview Assets.xcassets */; };
 		147F5D62266CAE5A008A337A /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F5D61266CAE5A008A337A /* ColorSlider.swift */; };
 		147F5D66266D276E008A337A /* SliderTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F5D65266D276E008A337A /* SliderTextFiled.swift */; };
-		147F5D68266D2AAD008A337A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F5D67266D2AAD008A337A /* SliderView.swift */; };
+		147F5D68266D2AAD008A337A /* sliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F5D67266D2AAD008A337A /* sliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		147F5D5B266CAE47008A337A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		147F5D61266CAE5A008A337A /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 		147F5D65266D276E008A337A /* SliderTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTextFiled.swift; sourceTree = "<group>"; };
-		147F5D67266D2AAD008A337A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		147F5D67266D2AAD008A337A /* sliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				147F5D54266CAE43008A337A /* ContentView.swift */,
 				147F5D61266CAE5A008A337A /* ColorSlider.swift */,
 				147F5D65266D276E008A337A /* SliderTextFiled.swift */,
-				147F5D67266D2AAD008A337A /* SliderView.swift */,
+				147F5D67266D2AAD008A337A /* sliderView.swift */,
 				147F5D56266CAE47008A337A /* Assets.xcassets */,
 				147F5D5B266CAE47008A337A /* Info.plist */,
 				147F5D58266CAE47008A337A /* Preview Content */,
@@ -151,7 +151,7 @@
 				147F5D62266CAE5A008A337A /* ColorSlider.swift in Sources */,
 				147F5D53266CAE43008A337A /* RGBSliderSwiftUIApp.swift in Sources */,
 				147F5D66266D276E008A337A /* SliderTextFiled.swift in Sources */,
-				147F5D68266D2AAD008A337A /* SliderView.swift in Sources */,
+				147F5D68266D2AAD008A337A /* sliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
