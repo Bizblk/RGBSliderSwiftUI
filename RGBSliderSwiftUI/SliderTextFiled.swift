@@ -11,23 +11,25 @@ struct SliderTextFiled: View {
     @Binding var sliderValue: Double
     @State var alertPresent = false
     
-    let formatter = NumberFormatter()
+   private let formatter = NumberFormatter()
     
     var body: some View {
         
         TextField("", value: $sliderValue, formatter: formatter)
-            .frame(width: 50, height: 20)
+            .frame(width: 40, height: 20)
             .background(Color.white)
             .keyboardType(.decimalPad)
+            
             .multilineTextAlignment(.center)
             .cornerRadius(5)
             .onChange(of: sliderValue, perform: { value in
                 validation()
             })
             .alert(isPresented: $alertPresent)  {
-                               Alert(title: Text("Incorrect value!"), message: Text("Enter value from 0 to 255"))
-                            }
+                Alert(title: Text("Incorrect value!"), message: Text("Enter value from 0 to 255"))
+            }
             
+        
         
     }
     
@@ -47,3 +49,4 @@ struct Textfield_Previews: PreviewProvider {
         SliderTextFiled(sliderValue: .constant(50))
     }
 }
+

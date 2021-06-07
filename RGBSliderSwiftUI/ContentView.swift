@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var redSliderValue = Double.random(in: 0...255)
     @State private var greenSliderValue = Double.random(in: 0...255)
     @State private var blueSliderValue = Double.random(in: 0...255)
-        
+    
     var body: some View {
         
         ZStack {
@@ -24,12 +24,12 @@ struct ContentView: View {
                 ColorSlider(sliderValue: $redSliderValue, color: .red)
                 ColorSlider(sliderValue: $greenSliderValue, color: .green)
                 ColorSlider(sliderValue: $blueSliderValue, color: .blue)
-
+                
                 Spacer()
-
+                
             }.padding()
         }
-       
+        
     }
 }
 
