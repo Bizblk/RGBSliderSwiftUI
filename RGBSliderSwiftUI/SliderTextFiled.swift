@@ -29,6 +29,7 @@ struct SliderTextFiled: View {
                 Alert(title: Text("Incorrect value!"), message: Text("Enter value from 0 to 255"))
             }
             
+            
         
         
     }

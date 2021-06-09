@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct SliderView: View {
-    @Binding var redValue: Double
-    @Binding var greenValue: Double
-    @Binding var blueValue: Double
+     let redValue: Double
+     let greenValue: Double
+     let blueValue: Double
     
     
     var body: some View {
@@ -28,6 +28,6 @@ struct SliderView: View {
 
 struct sliderView_Previews: PreviewProvider {
     static var previews: some View {
-        SliderView(redValue: .constant(0), greenValue: .constant(30), blueValue: .constant(10))
+        SliderView(redValue: 19, greenValue: 19, blueValue: 19)
     }
 }
